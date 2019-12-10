@@ -1,7 +1,5 @@
 package ru.maximus55.projectname
 
-import com.badlogic.gdx.ApplicationAdapter
-import com.badlogic.gdx.Game
 import com.badlogic.gdx.Screen
 import com.badlogic.gdx.graphics.Color
 import com.badlogic.gdx.graphics.g2d.Batch
@@ -19,7 +17,7 @@ import ktx.scene2d.defaultStyle
 import ktx.style.label
 import ktx.style.skin
 import ktx.style.textButton
-import ru.maximus55.projectname.Screens.GameScreen
+import ru.maximus55.projectname.screens.GameScreen
 
 /** [com.badlogic.gdx.ApplicationListener] implementation shared by all platforms.  */
 class App : KtxGame<Screen>() {
